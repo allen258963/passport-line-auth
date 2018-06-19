@@ -9,8 +9,8 @@ app.set('views', __dirname);
 app.set('view engine', 'pug');
 
 passport.use(new LineStrategy({
-  channelID: '[Your LINE\'s channel ID]',
-  channelSecret: '[Your LINE\'s channel Secret]',
+  channelID: '[aallen258963@gmail.com]',
+  channelSecret: '[k112711271127]',
   callbackURL: 'http://[Your domain]/login/line/return',
   scope: ['profile', 'openid', 'email'],
   botPrompt: 'normal'
